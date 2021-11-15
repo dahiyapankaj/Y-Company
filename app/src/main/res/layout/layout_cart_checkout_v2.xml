@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLytFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_2"
+    android:background="@android:color/white"
+    android:elevation="@dimen/margin_4"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".34" />
+
+    <LinearLayout
+        android:id="@+id/lytViewDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_2"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_4"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/txvProceedCheckout"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txvProceedCheckout">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txvCartPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="2"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/ts_16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="₹4,398" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txvTotalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/txt_total_value"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txvProceedCheckout"
+        style="@style/Button.Large.Yellow.Bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:padding="@dimen/margin_16"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        android:text="@string/txt_select_payment" />
+</androidx.constraintlayout.widget.ConstraintLayout>

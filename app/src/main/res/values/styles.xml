@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="Base.Text" parent="Theme.AppCompat" />
+
+    <style name="Base.Text.Bold.Default" parent="Base.Text">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.16.Bold" parent="Base.Text.Bold.Default">
+        <item name="android:textSize">@dimen/ts_16</item>
+    </style>
+
+
+    <style name="Base.Button.Large.Bold" parent="Text.16.Bold">
+        <item name="android:background">@drawable/background_teardrop_shape</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+
+    <style name="Button.Large.Yellow.Bold" parent="Base.Button.Large.Bold">
+        <item name="android:background">@drawable/yellow_gradient</item>
+    </style>
+
+    <style name="CustomProgessLoaderTheme" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/trans_primary_violet</item>
+    </style>
+</resources>

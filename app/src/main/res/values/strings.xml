@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Y-Company</string>
+
+    <string name="value_any_category">All Categories</string>
+    <string name="value_any_offer">Any Offer</string>
+    <string name="value_any_price">Any price($)</string>
+
+    <string name="price_1">Below 5000</string>
+    <string name="price_2">5000–10000</string>
+    <string name="price_3">10000 Above</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_offer">Offer</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_products">All Products</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="sort_by_popularity">Sort by Popularity</string>
+    <string name="sort_by_price">Sort by Price</string>
+
+    <string name="sorted_by_rating">sorted by rating</string>
+    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_popularity">sorted by popularity</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_all">Delete All</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_reviews">No Reviews added by you</string>
+    <string name="message_no_orders">No Orders you</string>
+    <string name="label_my_orders">My Orders</string>
+    <string name="label_my_cart">My Cart</string>
+    <string name="label_order_id">Order Id:</string>
+    <string name="label_order_date">Order Date:</string>
+    <string name="label_order_amount">Order Amount:</string>
+    <string name="label_order_status">Order Status:</string>
+    <string name="message_no_cart_items">No Items in your cart</string>
+    <string name="message_added_to_cart">Item added to your cart</string>
+    <string name="hint_review">Add your review</string>
+    <string name="submit">Submit</string>
+    <string name="filter_add_review">Add review</string>
+
+    <!-- Types of categories I could think of -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>TVs</item>
+        <item>Sound Systems</item>
+        <item>Personal Grooming</item>
+        <item>Kitchen Appliances</item>
+        <item>Power Tools</item>
+    </string-array>
+
+    <!-- most populous offers available -->
+    <string-array name="offers">
+        <item>@string/value_any_offer</item>
+
+        <item>5% Off</item>
+        <item>10% Off</item>
+        <item>15% Off</item>
+        <item>25% Off</item>
+        <item>35% Off</item>
+        <item>45% Off</item>
+        <item>55% Off</item>
+        <item>65% Off</item>
+        <item>75% Off</item>
+        <item>75% Off</item>
+
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+
+    <string name="txt_secure_payment">Secure Payment</string>
+    <string name="txt_100_percent">100%</string>
+    <string name="txt_select_payment">Make payment</string>
+    <string name="txt_add_to_cart">Add to Cart</string>
+    <string name="txt_total_value">Total Value</string>
+    <string name="txt_item_removed">Item removed from the cart</string>
+    <string name="txt_order_placed">Order Placed Successfully</string>
+</resources>

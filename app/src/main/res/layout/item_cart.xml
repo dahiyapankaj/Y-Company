@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#757575"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza_monster" />
+
+    <TextView
+        android:id="@+id/item_name"
+        style="@style/AppTheme.Subheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_image"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toStartOf="@+id/item_price"
+        android:layout_toEndOf="@+id/item_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Product name" />
+
+
+    <TextView
+        android:id="@+id/item_category"
+        style="@style/AppTheme.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name"
+        android:layout_alignLeft="@+id/item_name"
+        android:textColor="@color/greySecondary"
+        tools:text="Samsung" />
+
+    <TextView
+        android:id="@+id/item_divider"
+        style="@style/AppTheme.TextDivider"
+        android:layout_alignTop="@+id/item_category"
+        android:layout_toRightOf="@+id/item_category"
+        android:text="@string/divider_bullet" />
+
+    <TextView
+        android:id="@+id/item_offer"
+        style="@style/AppTheme.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_category"
+        android:layout_toRightOf="@+id/item_divider"
+        android:textColor="@color/greySecondary"
+        tools:text="LCD" />
+
+    <TextView
+        android:id="@+id/item_price"
+        style="@style/AppTheme.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/greySecondary"
+        tools:text="$1499" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_delete"
+        android:src="@drawable/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/item_price"
+        android:layout_marginTop="@dimen/margin_8"
+        android:textColor="@color/greySecondary"
+        tools:text="$1499" />
+
+</RelativeLayout>

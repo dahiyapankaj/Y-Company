@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/background_teardrop_shape.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/bg_circle_grey_filled.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/bg_shadow.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/ic_add_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.34791666666666665" />
+        <entry key="app/src/main/res/drawable/ic_close_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_fastfood_white_24dp.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_filter_list_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_local_dining_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_place_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_restaurant_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_sort_white_24px.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/drawable/yellow_gradient.xml" value="0.3416666666666667" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_orders.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_product_detail.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/custom_progress_loader.xml" value="0.2726449275362319" />
+        <entry key="app/src/main/res/layout/dialog_filters.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/item_cart.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/item_order.xml" value="0.2717391304347826" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.27807971014492755" />
+        <entry key="app/src/main/res/layout/item_restaurant.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/item_shipping.xml" value="0.2692654278788473" />
+        <entry key="app/src/main/res/layout/layout_cart_checkout_v2.xml" value="0.27807971014492755" />
+        <entry key="app/src/main/res/layout/toolbar_purchase_flow.xml" value="0.27807971014492755" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.33177083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
