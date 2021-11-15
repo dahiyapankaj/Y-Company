@@ -15,8 +15,8 @@ App will be for only portrait orientation supporting multiple screen sizes excep
 # Information
 
 * Language used - Kotlin
-* Target SDK version - 32
-* Minimum SDK version - 26
+* Target SDK version - 31
+* Minimum SDK version - 21
 * Networking library - FireStore
 * Architecture - MVVM
 * Android JetPack - for androidx
